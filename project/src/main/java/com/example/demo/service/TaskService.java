@@ -20,9 +20,12 @@ public class TaskService {
     public Optional<EntityTask> getTaskById(Long id) {
         return tasksRepository.findById(id);
     }
+    public Task createTask(EntityTask entityTask) {
+        return tasksRepository.save(EntityTask);
+    }
     public Task updateTask(Long id, Task newTask) {
         getTaskById(id);
-        return tasksRepository.save(Task);
+        return tasksRepository.save(EntityTask);
     }
     public void deleteTask(Long id) {
         tasksRepository.deleteById(id);
