@@ -18,7 +18,7 @@ public class EntityTask {
     @Temporal(TemporalType.DATE)
     private Date dueDate;
 
-  //  private boolean IsCompleted;
+  private boolean IsCompleted;
 
     @Enumerated(EnumType.STRING)
     private TasksCategory tasksCategory;
