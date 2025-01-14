@@ -14,8 +14,6 @@ public class EntityTask {
     private String title;
 
     private String description;
-    
-    private String name;
 
     @Temporal(TemporalType.DATE)
     private Date dueDate;
