@@ -18,7 +18,6 @@ public class EntityTask {
     @Temporal(TemporalType.DATE)
     private Date dueDate;
 
-
     @Enumerated(EnumType.STRING)
     private TasksCategory tasksCategory;
 
